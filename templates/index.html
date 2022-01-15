@@ -15,11 +15,11 @@
     </div>
    
     <div class="container text-center mt-2 " >
-    <form action="#" class="form-group  form-inline" method="post">
-        <input type="text" name="task" placeholder="SEARCH" class="form-control form-control-lg m-3 mh-100 p-3 justify-content-center border border-danger  " required >
+    <form action="{{url_for('.search')}}" class="form-group  form-inline" method="POST">
+        <input type="text" name="search"  placeholder="SEARCH" class=" form-control form-control-lg m-3 mh-100 p-3 justify-content-center border-4 border-info  " required size="50" >
 
 
-        <button class="btn btn-primary btn-sm " type="submit">SEARCH</button>
+        <button class="btn btn-primary btn-sm font " type="submit"><span class="font">SEARCH</span></button>
     </form>
 
     </div>
